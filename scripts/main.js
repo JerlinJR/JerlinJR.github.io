@@ -21,16 +21,16 @@ app.addEventListener("click", function(event){
 
 
 async function open_terminal(){
-  createText("Welcome...");
-  await delay(500);
-  createText("Writing Codes - Nice But Breaking into Codes - Thats something Cool ");
-  await delay(1000);
+  createText("Hey, How Are You Doing ?");
+  await delay(300);
+  createText("Writing Codes - Nice, Breaking into Codes - Thats something Cool ");
+  await delay(400);
   createText("You can run several commands:");
   createCode("about", "Who am i and what do i do.");
   createCode("help", "See all commands.");
   createCode("social -a", "All my social networks.");
 
-  await delay(500);
+  await delay(400);
   new_line();
 }
 
