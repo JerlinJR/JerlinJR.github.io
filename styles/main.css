@@ -182,3 +182,11 @@ input:focus{
 .icone.error{
   color:#F78F85;
 }
+
+@media screen and (max-device-width: 640px) {
+  .inner-button-container {
+    margin-bottom: -160px;
+    text-align: center;
+
+  }
+}
