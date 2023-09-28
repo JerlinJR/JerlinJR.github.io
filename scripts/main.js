@@ -26,7 +26,7 @@ var id = "confused-btn"
 
 async function open_terminal(){
   createText("Welcome...");
-  createTextColor(`<a href= ${link} id=${id}  target=${blank} style=${kolor}> Confused ? -> Click Here </a>`)
+  // createTextColor(`<a href= ${link} id=${id}  target=${blank} style=${kolor}> Confused ? -> Click Here </a>`)
   await delay(500);
   createText("Writing Codes - Nice But Breaking into Codes - Thats something Cool ");
   await delay(1000);
